@@ -3,8 +3,12 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route('/')
-def form():
+def index():
 	return render_template('index.html')
+
+@app.route('/countable')
+def countable():
+	return render_template('countable.html')
 
 # @app.route('/submitted', methods=['POST'])
 # def submitted_form():
