@@ -45,3 +45,8 @@
 	text-align: right;
 	padding-top: 10px;
 }
+
+.uk-button {
+	width: 210px;
+	font-size: 13px;
+}
