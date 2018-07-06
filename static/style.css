@@ -1,3 +1,47 @@
 .pagetitle {
     color: #800080;
 }
+.main {
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+.nav {
+	padding-top: 60px;
+}
+
+.grid-container {
+	display: inline-grid;
+	grid-template-columns: 400px;
+	/*grid-gap: 10px;*/
+}
+
+.grid-item {
+	align-text: left;
+}
+
+
+
+.box-item {
+}
+
+.uk-panel-box {
+	margin: 10px;
+}
+
+.item-grid {
+	padding-top: 25px;
+	width: 100%;
+	margin: auto;
+	text-align: left;
+}
+
+.card-body {
+	text-align: left;
+	padding: 1px;
+}
+
+.card-footer {
+	text-align: right;
+	padding-top: 10px;
+}
