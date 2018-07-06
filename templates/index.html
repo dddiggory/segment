@@ -85,10 +85,17 @@
 
 				<form class='uk-form-width-small main'>
 					<label class="uk-form-label">Select your identity:</label>
-					<select class="uk-select" id="idselect">
+					<select class="uk-select" id="idselect" onchange="UIkit.notification({
+						message: 'Changed identity to '+$('#idselect')[0].value, 
+						status: 'primary',
+						pos: 'top-right',
+						timeout: 1000})">
 						<option>Diggory</option>
 						<option>Ricky</option>
 						<option>Prakash</option>
+						<option>Sahil</option>
+						<option>Jaimal</option>
+						<option>Han</option>
 					</select>
 				</form>
 			</div>
