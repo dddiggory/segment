@@ -12,13 +12,16 @@
 
 .grid-container {
 	display: inline-grid;
-	grid-template-columns: 400px;
+	grid-template-columns: 550px;
+	/*width: 75%;*/
 	/*grid-gap: 10px;*/
 }
 
 .grid-item {
 	align-text: left;
 	vertical-align: middle;
+	/*width: 200%;*/
+	margin:auto;
 }
 
 
